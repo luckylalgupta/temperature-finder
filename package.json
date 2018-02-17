@@ -1,0 +1,21 @@
+{
+  "name": "tempfinder",
+  "version": "1.0.0",
+  "description": "Rest API to fetch temperature by accepting city as url parameter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "RESTful"
+  ],
+  "author": "Lucky Lal Gupta",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.15.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
